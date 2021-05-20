@@ -1,6 +1,6 @@
 pragma solidity 0.4.24;
 
-import "@aragon/templates-shared/contracts/BaseTemplate.sol";
+import "@1hive/deployments-aragon-shared/contracts/BaseTemplate.sol";
 
 
 contract CompanyBoardTemplate is BaseTemplate {
