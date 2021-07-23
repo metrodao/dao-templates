@@ -9,9 +9,14 @@ lerna-debug.log
 **/**/yarn.lock
 **/**/package-lock.json
 
-# truffle build artifacts
+# build artifacts
 arapp_local.json
-*/**/abi
+*/**/artifacts
 */**/build
+*/**/cache
+*/**/dist
 */**/abis.json
 */**/flattened_contracts
+
+# misc
+.env

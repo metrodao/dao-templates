@@ -1,8 +1,7 @@
 pragma solidity 0.4.24;
 
-import "@aragon/templates-shared/contracts/TokenCache.sol";
-import "@aragon/templates-shared/contracts/BaseTemplate.sol";
-
+import "@1hive/deployments-aragon-shared/contracts/TokenCache.sol";
+import "@1hive/deployments-aragon-shared/contracts/BaseTemplate.sol";
 
 contract CompanyTemplate is BaseTemplate, TokenCache {
     string constant private ERROR_EMPTY_HOLDERS = "COMPANY_EMPTY_HOLDERS";
